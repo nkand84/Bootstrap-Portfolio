@@ -154,14 +154,16 @@ footer p{
        /* float:left; */
        margin: 0px 15px 15px 0px;
     }
-   .about-me{
-       width:100%;
-       margin:20px;
+   .about-me, .sidebar{
+        width: 100%;
+        margin: 20px auto;
+        float: none;
+        max-width: 600px;
     }
-   .sidebar{
+   /* .sidebar{
     width:100%;
     margin: 0px 15px 50px 20px;
-    }
+    } */
    .icon-size{
        width:60px;
    }
